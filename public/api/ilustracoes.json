@@ -1,0 +1,42 @@
+[
+  {
+    "src": "assets/ilustracoes/agenda.svg",
+    "label": "Agenda"
+  },
+  {
+    "src": "assets/ilustracoes/casa.svg",
+    "label": "Casa"
+  },
+  {
+    "src": "assets/ilustracoes/desenho.svg",
+    "label": "Desenho"
+  },
+  {
+    "src": "assets/ilustracoes/homer.svg",
+    "label": "Homer"
+  },
+  {
+    "src": "assets/ilustracoes/lampada.svg",
+    "label": "Lampada"
+  },
+  {
+    "src": "assets/ilustracoes/lapis-de-cor.svg",
+    "label": "Lapis de cor"
+  },
+  {
+    "src": "assets/ilustracoes/lapis.svg",
+    "label": "Lapis"
+  },
+  {
+    "src": "assets/ilustracoes/mario.svg",
+    "label": "Mário"
+  },
+  {
+    "src": "assets/ilustracoes/nota-musical.svg",
+    "label": "Nota musical"
+  },
+  {
+    "src": "assets/ilustracoes/polaroid.svg",
+    "label": "Polaroid"
+  }
+]

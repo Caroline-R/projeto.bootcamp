@@ -1,0 +1,117 @@
+<style>
+  :host {
+    --tons-fundo-amarelo: #FCE29F;
+    --tons-fundo-amarelo-forte: #FFCD71;
+    --tons-fundo-ciano: #7DE2FF;
+    --tons-fundo-ciano-forte: #2ECFFB;
+    --tons-fundo-indigo: #696EB1;
+    --tons-fundo-indigo-forte: #4C5698;
+    --tons-fundo-rosa: #FF8D9D;
+    --tons-fundo-rosa-forte: #E95B70;
+    --tons-fundo-roxo: #C8A9F1;
+    --tons-fundo-roxo-forte: #B18AE3;
+    --tons-fundo-verde: #71DBBA;
+    --tons-fundo-verde-forte: #30CC9B;
+    --tons-texto-ciano-contraste: #FF8D9D;
+    --tons-texto-rosa-contraste: #FCE29F;
+    --tons-texto-roxo-contraste: #FCE29F;
+    --tons-texto-verde-contraste: #696EB1;
+    --tons-texto-amarelo-contraste: #C8A9F1;
+    --tons-texto-indigo-contraste: #EEEDFF;
+  }
+  :host-context(.tons.amarelo) g path {
+    fill: var(--tons-fundo-amarelo-forte);
+  }
+  :host-context(.tons.amarelo) rect {
+    fill: var(--tons-fundo-amarelo);
+  }
+  :host-context(.tons.amarelo) {
+    color: var(--tons-texto-amarelo-contraste);
+  }
+
+  :host-context(.tons.indigo) g path {
+    fill: var(--tons-fundo-indigo-forte);
+  }
+  :host-context(.tons.indigo) rect {
+    fill: var(--tons-fundo-indigo);
+  }
+  :host-context(.tons.indigo) {
+    color: var(--tons-texto-indigo-contraste);
+  }
+
+  :host-context(.tons.ciano) g path {
+    fill: var(--tons-fundo-ciano-forte);
+  }
+  :host-context(.tons.ciano) rect {
+    fill: var(--tons-fundo-ciano);
+  }
+  :host-context(.tons.ciano) {
+    color: var(--tons-texto-ciano-contraste);
+  }
+
+  :host-context(.tons.rosa) g path {
+    fill: var(--tons-fundo-rosa-forte);
+  }
+  :host-context(.tons.rosa) rect {
+    fill: var(--tons-fundo-rosa);
+  }
+  :host-context(.tons.rosa) {
+    color: var(--tons-texto-rosa-contraste);
+  }
+
+  :host-context(.tons.roxo) g path {
+    fill: var(--tons-fundo-roxo-forte);
+  }
+  :host-context(.tons.roxo) rect {
+    fill: var(--tons-fundo-roxo);
+  }
+  :host-context(.tons.roxo) {
+    color: var(--tons-texto-roxo-contraste);
+  }
+
+  :host-context(.tons.verde) g path {
+    fill: var(--tons-fundo-verde-forte);
+  }
+  :host-context(.tons.verde) rect {
+    fill: var(--tons-fundo-verde);
+  }
+  :host-context(.tons.verde) {
+    color: var(--tons-texto-verde-contraste);
+  }
+
+  :host {
+    display: inline-block;
+    position: relative;
+    font-size: 48px;
+  }
+  :host svg {
+    display: block;
+    width: 60px;
+    height: 60px;
+  }
+  :host span {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+</style>
+
+<template>
+  <svg viewBox="0 0 144 144" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="144" height="144" rx="16" />
+    <mask id="mask0_86_286" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="144" height="144">
+      <rect width="144" height="144" rx="16" />
+    </mask>
+    <g mask="url(#mask0_86_286)">
+      <path d="M0 0H35.5C18.8747 79.728 32.8614 110.269 60 144H0V0Z" />
+    </g>
+  </svg>
+  <span></span>
+</template>
