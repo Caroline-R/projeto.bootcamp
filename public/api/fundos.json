@@ -1,0 +1,40 @@
+[
+  {
+    "src": "assets/fundos/nuvens.svg",
+    "label": "Nuvens"
+  },
+  {
+    "src": "assets/fundos/nuvem.svg",
+    "label": "Nuvem"
+  },
+
+  {
+    "src": "assets/fundos/azul.svg",
+    "label": "Azul"
+  },
+
+  {
+    "src": "assets/fundos/Rosa.svg",
+    "label": "Rosa"
+  },
+    {
+    "src":"assets/fundos/Brincar.svg",
+    "label": "Brincar"
+  },
+  {
+    "src":"assets/fundos/Casa.svg",
+    "label": "Casa"
+  },
+  {
+    "src":"assets/fundos/Comer.svg",
+    "label": "Comer"
+  },
+    {
+    "src":"assets/fundos/Escola.svg",
+    "label": "Escola"
+  },
+  {
+    "src": "",
+    "label": "Limpar"
+  }
+]

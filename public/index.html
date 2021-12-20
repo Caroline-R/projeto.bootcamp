@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css" />
+  <script src="main.js" defer></script>
+  <script src="carol.js" defer></script>
+  <title>Site da Carol</title>
+</head>
+
+<body>
+  <header>
+    <a>
+      <!-- <img src="assets/autismo.svg" alt="Peças de brinquedo soletrando autismo">
+        <h1>Bem vindo(a)!</h1> -->
+
+      <letra-bloco letra="S" tons="amarelo"></letra-bloco>
+      <letra-bloco letra="E" tons="indigo"></letra-bloco>
+      <letra-bloco letra="J" tons="ciano"></letra-bloco>
+      <letra-bloco letra="A" tons="rosa"></letra-bloco>
+
+      <letra-bloco letra="-" tons="verde"></letra-bloco>
+
+      <letra-bloco letra="B" tons="roxo"></letra-bloco>
+      <letra-bloco letra="E" tons="amarelo"></letra-bloco>
+      <letra-bloco letra="M" tons="indigo"></letra-bloco>
+
+      <letra-bloco letra="-" tons="ciano"></letra-bloco>
+
+      <letra-bloco letra="V" tons="rosa"></letra-bloco>
+      <letra-bloco letra="I" tons="verde"></letra-bloco>
+      <letra-bloco letra="N" tons="roxo"></letra-bloco>
+      <letra-bloco letra="D" tons="amarelo"></letra-bloco>
+      <letra-bloco letra="O" tons="indigo"></letra-bloco>
+
+    </a>
+    <button id="Imprimir">
+      Imprimir
+    </button>
+  </header>
+  <main>
+    <aside>
+      <h3>Cenários</h3>
+      <ul id="fundos"></ul>
+    </aside>
+
+    <section>
+      <div id="cartao">
+        <h1 contenteditable>Título</h1>
+        <div>
+
+          <img src="" alt="" id="background">
+          <div id="ilustracao">
+            <img src="" alt="" id=>
+          </div>
+        </div>
+
+        <h2 contenteditable>Atividade do dia</h2>
+      </div>
+    </section>
+
+    <aside>
+      <h3>Ilustrações</h3>
+      <ul id="ilustracoes"></ul>
+    </aside>
+  </main>
+  <footer>&copy; 2021</footer>
+</body>
+<template id="item-da-lista">
+  <li>
+    <figure>
+      <img src="" alt="">
+      <figcaption></figcaption>
+    </figure>
+    <button value="">Selecionar</button>
+  </li>
+</template>
+
+
+<dialog open>
+  <header>
+    <h2>Quadros de Rotina!</h2>
+    <button onclick="document.querySelector('dialog').close()">x</button>
+  </header>
+    <section>
+    <p>
+      O suporte visual é um recurso que instiga o aprendizado, melhora a comunicação e promove a autonomia em crianças com TEA, como também, auxilia as professoras da Educação Infantil. Eles servem como uma espécie de “lembrete”, permitindo que você aplique em momentos diferentes de acordo com suas necessidades. 
+    </p>
+    <p>
+      Navegue pelo nosso conteúdo, elabore, baixe e use-o gratuitamente! Temos certeza que você vai gostar!
+    </p>
+    <h3>Como Utilizar:</h3>
+    <ul>
+      <li>1. Insira um cenário, clincando no botão:SELECIONAR;</li>
+      <li>2. Seguidamente, insira uma ilustração de sua escolha;</li>
+      <li>3. Em seguida, clique nos textos editáveis na parte superior e inferior do seu card,editando os textos como preferir;</li>
+      <li>4. Por fim, clique em imprimir no botão que está localizado na parte superior da página;</li>
+      <li>5. Para voltar na tela inicial após a impressão, clique em atualizar a página ou selecione no F5.</li>
+    </ul>
+  </section>
+</dialog>
+
+</html>

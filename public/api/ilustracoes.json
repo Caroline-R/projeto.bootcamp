@@ -1,0 +1,59 @@
+[
+    {
+    "src": "assets/ilustracoes/menina.svg",
+    "label": "menina"
+  },
+  {
+    "src": "assets/ilustracoes/Menina2.svg",
+    "label": "Menina2"
+  },
+  {
+    "src": "assets/ilustracoes/Menina3.svg",
+    "label": "Menina3"
+  },
+  {
+    "src": "assets/ilustracoes/Menino1.svg",
+    "label": "Menino1"
+  },
+  {
+    "src": "assets/ilustracoes/Menino2.svg",
+    "label": "Menino2"
+  },
+  {
+    "src": "assets/ilustracoes/Menino3.svg",
+    "label": "Menino3"
+  },
+
+{
+  "src": "assets/ilustracoes/Dormir.svg",
+  "label": "Dormir"
+},
+{
+  "src": "assets/ilustracoes/Dormir.menino.svg",
+  "label": "Dormir.menino"
+},
+{
+  "src": "assets/ilustracoes/Dormir.menino2.svg",
+  "label": "Dormir.menino2"
+},
+{
+  "src": "assets/ilustracoes/banho.svg",
+  "label": "Banho"
+},
+{
+  "src": "assets/ilustracoes/Estudar.svg",
+  "label": "Estudar"
+},
+{
+  "src": "assets/ilustracoes/Estudar_menina.svg",
+  "label": "Estudar_menina"
+},
+{
+  "src": "assets/ilustracoes/Estudar_menino.svg",
+  "label": "Estudar_menino"
+},
+{
+  "src": "",
+  "label": "Limpar"
+}
+]
